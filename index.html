@@ -12,7 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <!-- normalie -->
+    <!-- normalieze -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -21,7 +21,7 @@
       referrerpolicy="no-referrer"
     />
     <!-- styles -->
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
@@ -71,7 +71,7 @@
       <!-- Преимущества -->
       <section class="features">
         <div class="container">
-          <h2 class="features__title">Преимущества</h2>
+          <h2 class="features__title--hidden">Преимущества</h2>
           <ul class="features__list list">
             <li class="features__item">
               <div class="features__logo">
@@ -325,7 +325,7 @@
             <span class="footer-sub__title">Подпишитесь на разсылку</span> 
             <input type="email" name="mail-input" placeholder="E-mail" class="footer-sub__input" required/>
           </label>
-          <button type="submit" class="footer-sub__btn"><span class="footer-sub__bt--txt-mg">Подписаться</span><svg width="24" height="24"><use href="./images/icons.svg#icon-send"></use></svg></button>
+          <button type="submit" class="footer-sub__btn pointer"><span class="footer-sub__bt--txt-mg">Подписаться</span><svg width="24" height="24"><use href="./images/icons.svg#icon-send"></use></svg></button>
         </form>
       </div>
     </footer>
@@ -360,9 +360,9 @@
           </label>
           
         
-          <button type="submit" class="submit-btn">Отправить</button>
+          <button type="submit" class="submit-btn pointer">Отправить</button>
         </form>
-        <button class="close-btn" data-modal-close><svg width="11" height="11"><use href="./images/icons.svg#vector"></use></svg></button>
+        <button class="close-btn pointer" data-modal-close><svg width="11" height="11"><use href="./images/icons.svg#vector"></use></svg></button>
       </div>
     </div>
   </body>
